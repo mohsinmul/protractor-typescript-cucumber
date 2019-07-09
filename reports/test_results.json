@@ -1,0 +1,164 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Add User Functionality",
+    "line": 1,
+    "id": "add-user-functionality",
+    "tags": [],
+    "uri": "feature_files\\addUser.feature",
+    "elements": [
+      {
+        "id": "add-user-functionality;verify-user-can-bee-added",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Verify User can bee added",
+        "tags": [
+          {
+            "name": "@addUserTest",
+            "line": 6
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "step_definitions\\cucumberHooks.ts:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to WayAutomation homepage",
+            "match": {
+              "location": "step_definitions\\homePage_steps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2666000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I clicked on Add User link",
+            "match": {
+              "location": "step_definitions\\homePage_steps.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 595000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "Entered first name as \"Mohsin\"",
+            "match": {
+              "location": "step_definitions\\addUserPage_steps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 91000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "Entered last name as \"Mulla\"",
+            "match": {
+              "location": "step_definitions\\addUserPage_steps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 71000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "Entered username as \"MohsinMulla\"",
+            "match": {
+              "location": "step_definitions\\addUserPage_steps.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 96000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "Entered password as \"Mohsinmulla\"",
+            "match": {
+              "location": "step_definitions\\addUserPage_steps.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 89000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "Selected 1 radio button as customer",
+            "match": {
+              "location": "step_definitions\\addUserPage_steps.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2501000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "Selected \"Customer\" as a role from dropdown",
+            "match": {
+              "location": "step_definitions\\addUserPage_steps.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5061000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "step_definitions\\cucumberHooks.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
